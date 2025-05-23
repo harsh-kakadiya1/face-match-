@@ -2,7 +2,7 @@
 
 A Python tool that automatically identifies and copies images containing a specific person's face from a large dataset. This project uses advanced face recognition technology with GPU acceleration support to efficiently process thousands of images.
 
-## 🌟 Features
+##  Features
 
 - **Face Recognition**: Uses state-of-the-art face recognition algorithms to identify matching faces
 - **GPU Acceleration**: Optional CUDA support for faster processing of large image datasets
@@ -11,7 +11,7 @@ A Python tool that automatically identifies and copies images containing a speci
 - **Robust Error Handling**: Continues processing even if individual images fail
 - **Detailed Logging**: Comprehensive logging for monitoring progress and debugging
 
-## 🚀 Use Cases
+##  Use Cases
 
 - **Event Photography**: Sort through hundreds of event photos to find images of specific people
 - **Family Photo Organization**: Organize family albums by identifying specific family members
@@ -19,7 +19,7 @@ A Python tool that automatically identifies and copies images containing a speci
 - **Social Media Management**: Quickly find photos containing specific people from large collections
 - **Professional Photography**: Sort client photos efficiently
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - Python 3.7 or higher
@@ -37,7 +37,7 @@ dlib>=19.22.0
 cmake>=3.21.0
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -63,7 +63,7 @@ pip install cmake
 pip install dlib
 ```
 
-## 📖 Usage
+##  Usage
 
 ### Basic Usage
 ```python
@@ -112,7 +112,7 @@ Modify logging level in the script:
 logging.basicConfig(level=logging.INFO)  # Change to DEBUG for verbose output
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 face-recognition-sorter/
 ├── face_recognition_sorter.py    # Main script
@@ -124,7 +124,7 @@ face-recognition-sorter/
     └── test_face_recognition.py
 ```
 
-## 🚨 Important Notes
+##  Important Notes
 
 ### Privacy and Ethics
 - **Consent**: Always ensure you have permission to process images of people
@@ -141,7 +141,7 @@ face-recognition-sorter/
 - Performance depends on image quality and lighting conditions
 - May struggle with heavily edited or filtered images
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -165,7 +165,7 @@ copy_images_with_face(..., use_cuda=False)
 - Ensure you have read/write permissions for input and output folders
 - Run with administrator privileges if necessary
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-feature`)
@@ -173,17 +173,17 @@ copy_images_with_face(..., use_cuda=False)
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [face_recognition](https://github.com/ageitgey/face_recognition) library by Adam Geitgey
 - [dlib](http://dlib.net/) library for face detection algorithms
 - PyTorch team for GPU acceleration support
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 1. Check the [Issues](https://github.com/yourusername/face-recognition-sorter/issues) page
