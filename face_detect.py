@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
+"""
+Face Recognition Image Sorter
 
+This script identifies and copies images containing a specific person's face
+from a dataset folder to an output folder using face recognition technology.
+
+Usage:
+    1. Update the file paths in the configuration section below
+    2. Run the script: python face_recognition_image_sorter.py
+"""
 
 import os
 import shutil
