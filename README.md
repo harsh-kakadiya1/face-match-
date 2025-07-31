@@ -1,6 +1,6 @@
 # Face Recognition Image Sorter
 
-A Python tool that automatically identifies and copies images containing a specific person's face from a large dataset. This project uses advanced face recognition technology with GPU acceleration support to efficiently process thousands of images.
+A Python tool that automatically identifies and copies images containing a specific person's face from a large dataset. This project uses advanced face recognition technology with GPU acceleration support to 
 
 ##  Features
 
